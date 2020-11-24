@@ -14,7 +14,7 @@ $numero= 100;
 
 $decimal = 27.9;
 
-$texto="Soy un texto ' $numero";
+$texto="Soy un texto \t $numero";
 $verdadero=false;
 echo $verdadero;
 echo "<br>";
