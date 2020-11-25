@@ -30,6 +30,10 @@ if(isset($_GET['numero'])){
     echo "<h2>Tabla de multiplicar del numero $numero </h2>";
     $iteracion=0;
     while ($iteracion<=10){
+        if($numero==45){
+            echo "No se puede mostrar estas operaciones prohibidas";
+            break;
+        }
         echo "<p>$numero x $iteracion = ".($numero*$iteracion).'</p>';
         $iteracion++;
     }
