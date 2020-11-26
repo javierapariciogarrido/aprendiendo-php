@@ -7,45 +7,28 @@
 
 echo "<table border='1'>"; // Inicio de la tabla 
 echo "<tr>";
-for($i=1;$i<=10;$i++){
-    // Cabecera
+for($cabecera=1;$cabecera<=10;$cabecera++){
+    // Cabecera de la tabla
     echo "<th>";
-    echo "Tabla del $i";
+    echo "Tabla del $cabecera";
     echo "</th>";
-    
-    
 }
 echo "</tr>"; // Fin cabecera
 
-// Inicio de otra fila 
+
+// Resto de la tabla se va completando creando la fila y luego rellenando toda la tabla x uno 
+// luego toda la tabla por dos y asi.... Es decir se escribe fila por fila 
 for($i=1;$i<=10;$i++){
     echo "<tr>"; // Inicio de cada fila de las tablas
     for($j=1;$j<=10;$j++){
-        echo "<td>";
+        echo "<td>";   // Inicio de cada componente de la tabla de multiplicar
         echo $j.'x'.$i.'='.($i*$j);
-        echo "</td>";
+        echo "</td>";  // Fin de cada componente de la tabla de multiplicar
     }
-    echo "</tr>";
+    echo "</tr>";  // Fin de cada fila de las tablas
 }
 
 
 echo"</table>";  // Fin de la tabla 
 
 
-/*
-<table>
-    <th>
-        Tabla del 1 
-    </th>
-    <th>
-        Tabla del 2
-    </th>
-</table>
-
-
-for($i=1;$i<=10;$i++){
-    for($j=1;$j<=10;$j++){
-        
-    }
-}
-*/
