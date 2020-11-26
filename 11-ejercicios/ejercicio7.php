@@ -2,7 +2,7 @@
 
 /* 
   
-    Ejercicio 5: Hacer un programa que muestre todos los números IMPARES entre dos numeros que
+    Ejercicio 7: Hacer un programa que muestre todos los números IMPARES entre dos numeros que
     nos lleguen por get 
  
  */
