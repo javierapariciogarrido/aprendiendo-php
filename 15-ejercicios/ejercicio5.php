@@ -8,7 +8,7 @@
  * COD       CRASH                      PES 19 
  * PUG       PRINCE OF PERSIA           MOTO GP 19
  * 
- * Cada columna debe ir en un fichero separado
+ * Cada fila debe ir en un fichero separado
  */
 
 $tabla = [
@@ -17,22 +17,19 @@ $tabla = [
             'DEPORTES'=>['FIFA 19','PES 19','MOTO GP']
         ];
 
+//Almacenar en un array los indices principales del array tabla con función array_keys($tabla)
 $categorias= array_keys($tabla); 
-?>
-      
 
 
-<table border="1">
-    <tr>
-        <?php foreach ($categorias as $categoria){?>
-            <th>
-               <?php $categoria; ?> 
-            </th>
-        <?php}?>
-        
-            
-    </tr>
-</table>
+    
+// Impresión de la tabla separado en archivos por cabecera y filas
+    require_once 'includes/encabezados.php';
+    require_once 'includes/fila1.php'; 
+    require_once 'includes/fila2.php'; 
+    require_once 'includes/fila3.php'; 
+    
+    
+
  
 
 
