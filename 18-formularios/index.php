@@ -29,19 +29,67 @@
                 Hombre<input type="checkbox" name="sexo" value="Hombre" checked="checked">
                 Mujer<input type="checkbox" name="sexo" value="Mujer">
             </p>
-            <label for="apellido">Apellido:</label>
+            
+            <label for="color">Color:</label>
             <p>
-                <input type="text" name="apellido" value="Mete tu Apellido...">
+                <input type="color" name="color">
             </p>
-            <label for="apellido">Apellido:</label>
+            
+            <label for="fecha">Fecha:</label>
             <p>
-                <input type="text" name="apellido" value="Mete tu Apellido...">
+                <input type="date" name="fecha">
             </p>
-            <label for="apellido">Apellido:</label>
+            
+            <label for="correo">Email:</label>
             <p>
-                <input type="text" name="apellido" value="Mete tu Apellido...">
+                <input type="email" name="correo">
             </p>
+            
+            <label for="archivo">Archivo:</label>
+            <p>
+                <input type="file" name="archivo" multiple="multiple">
+            </p>
+            
+            <label for="oculto">Oculto:</label>
+            <p>
+                <input type="hidden" name="oculto" value="heyyy">
+            </p>
+            
+            <label for="numero">Número:</label>
+            <p>
+                <input type="number" name="numero">
+            </p>
+            
+            <label for="pass">Contraseña:</label>
+            <p>
+                <input type="password" name="pass">
+            </p>
+            
+            <label for="continente">Continente:</label>
+            <p>
+                América Latina<input type="radio" name="continente" value="America Latina">
+                Europa<input type="radio" name="continente" value="Europa">
+                Asia<input type="radio" name="continente" value="Asia">
+            </p>
+            
+            <label for="web">Página Web:</label>
+            <p>
+                <input type="url" name="web">
+            </p>
+            
+            <textarea name="TExtolargo"></textarea><br>
+
+            <label for="peliculas">Peliculas:</label>
+            <select name="peliculas">
+                <option value="La verdad duele">La verdad duele</option>
+                <option value="El señor de los anillos">El señor de los anillos</option>
+                <option value="Spiderman">Spiderman</option>
+                <option value="Batman">Batman</option>
+            </select>
+            <br>
             <input type="submit" value="Enviar">
         </form>
     </body>
 </html>
+
+
