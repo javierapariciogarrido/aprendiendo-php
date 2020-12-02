@@ -15,7 +15,32 @@
             <label for="apellido">Apellido:</label>
             <p>
                 <input type="text" name="apellido" value="Mete tu Apellido...">
-            </p>    
+            </p>
+            
+            
+            <label for="boton">Boton:</label>
+            <p>
+                <input type="button" name="boton" value="Mete tu Apellido...">
+            </p>
+            
+            
+            <label for="sexo">Sexo:</label>
+            <p>
+                Hombre<input type="checkbox" name="sexo" value="Hombre" checked="checked">
+                Mujer<input type="checkbox" name="sexo" value="Mujer">
+            </p>
+            <label for="apellido">Apellido:</label>
+            <p>
+                <input type="text" name="apellido" value="Mete tu Apellido...">
+            </p>
+            <label for="apellido">Apellido:</label>
+            <p>
+                <input type="text" name="apellido" value="Mete tu Apellido...">
+            </p>
+            <label for="apellido">Apellido:</label>
+            <p>
+                <input type="text" name="apellido" value="Mete tu Apellido...">
+            </p>
             <input type="submit" value="Enviar">
         </form>
     </body>
